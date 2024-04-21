@@ -1,11 +1,26 @@
 .homeWrapper{max-width: 1440px;margin: 0 auto;}
 
 .searchBarWrapper{text-align: center;padding: 20px;}
-.searchBarWrapper input{width: 800px;padding: 10px;outline: none;border-radius: 10px;color: black;}
+.searchBarWrapper input{width: 800px;padding: 10px;outline: none;border-radius: 10px;color: black;text-align: center;}
 
 .questionsWrapper{padding: 40px;}
 .questionWrapper{margin-top: 20px;border: 1px solid rgb(98, 98, 98);padding: 15px;border-radius: 20px;cursor: pointer;}
 .questionWrapper h3{font-weight: 300;}
+
+
+@media (max-width:1440px){
+    .searchBarWrapper{padding: 1.389vw;}
+    .searchBarWrapper input{width: 55.556vw;padding: 0.694vw;border-radius: 0.694vw;}
+    .questionsWrapper{padding: 2.778vw;}
+    .questionWrapper{margin-top: 1.389vw;border: 0.069vw solid rgb(98, 98, 98);padding: 1.042vw;border-radius: 1.389vw;}
+}
+
+@media (max-width:767px){
+    .searchBarWrapper{padding: 4vw;}
+    .searchBarWrapper input{width: 90%;padding: 1.5vw;border-radius: 2vw;}
+    .questionsWrapper{padding: 2vw;}
+    .questionWrapper{margin-top: 3vw;border: 0.2vw solid rgb(98, 98, 98);padding: 2vw;border-radius: 2vw;}
+}
 
 .easy{color: rgb(218, 244, 181);}
 .hard{color: rgb(244, 145, 145);}
