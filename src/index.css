@@ -6,7 +6,28 @@
     --primary-medium: #1A1A1A;
     --primary-light: #2B2B2B;
     --primary-text: #FFF;
-    --secondary-text: #F7F7F7;
+    --secondary-text: #a0a0a0;
+    font-family: "Source Code Pro", monospace;
+    color: white;
+}
+
+body{
     background-color: var(--primary-dark);
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
 }
 

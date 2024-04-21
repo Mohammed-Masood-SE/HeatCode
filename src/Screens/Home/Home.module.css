@@ -1,1 +1,12 @@
 .homeWrapper{max-width: 1440px;margin: 0 auto;}
+
+.searchBarWrapper{text-align: center;padding: 20px;}
+.searchBarWrapper input{width: 800px;padding: 10px;outline: none;border-radius: 10px;color: black;}
+
+.questionsWrapper{padding: 40px;}
+.questionWrapper{margin-top: 20px;border: 1px solid rgb(98, 98, 98);padding: 15px;border-radius: 20px;cursor: pointer;}
+.questionWrapper h3{font-weight: 300;}
+
+.easy{color: rgb(218, 244, 181);}
+.hard{color: rgb(244, 145, 145);}
+.medium{color: rgb(251, 213, 142);}

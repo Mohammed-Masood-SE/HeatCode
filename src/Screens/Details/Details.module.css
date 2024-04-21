@@ -1,0 +1,14 @@
+.detailsWrapper{padding: 40px;position: relative;}
+
+.close{position: absolute;right:40px;top: 30px;font-weight: 300;cursor: pointer;}
+
+.detailsWrapper a{font-weight: 300;font-size: 25px;text-decoration: none;}
+.detailsWrapper p{margin-top: 20px;}
+
+.codeBlockWrapper{overflow-x: auto;margin-top: 20px;}
+
+.tip{color: var(--secondary-text);}
+
+.easy{color: rgb(218, 244, 181);}
+.hard{color: rgb(244, 145, 145);}
+.medium{color: rgb(251, 213, 142);}
