@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HeatCode/static/css/main.87b86594.css",
+    "main.js": "/HeatCode/static/js/main.de259d50.js",
+    "index.html": "/HeatCode/index.html",
+    "main.87b86594.css.map": "/HeatCode/static/css/main.87b86594.css.map",
+    "main.de259d50.js.map": "/HeatCode/static/js/main.de259d50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87b86594.css",
+    "static/js/main.de259d50.js"
+  ]
+}
