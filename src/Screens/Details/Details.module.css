@@ -4,8 +4,11 @@
 
 .detailsWrapper a{font-weight: 300;text-decoration: none;}
 .detailsWrapper p{margin-top: 20px;}
-
 .codeBlockWrapper{overflow-x: auto;margin-top: 20px;}
+
+
+.tip,.codeBlockWrapper{filter: blur(2px);transition: 0.4s all;}
+.tip:hover,.codeBlockWrapper:hover{filter: blur(0px);}
 
 @media (max-width:1440px){
     .detailsWrapper{padding: 2.778vw;}

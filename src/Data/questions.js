@@ -47,7 +47,6 @@ let questions = [
         return True`,
         tip:"Use 2 maps to see if equal amount of letters exist in both maps"
     }
-
 ]
 
 export default questions
