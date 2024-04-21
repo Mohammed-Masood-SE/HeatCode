@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary-dark: #0F0F0F;
+    --primary-medium: #1A1A1A;
+    --primary-light: #2B2B2B;
+    --primary-text: #FFF;
+    --secondary-text: #F7F7F7;
+    background-color: var(--primary-dark);
+}
+
