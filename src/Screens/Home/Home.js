@@ -29,7 +29,7 @@ function Home() {
             }
             let textContent = ``
             for(let i=0;i<remainingQuestions.length;i++){
-                textContent += `${i+1}. ${questions[remainingQuestions[i]].questionName}\n${questions[remainingQuestions[i]].question}\n\n`
+                textContent += `${i+1}. ${questions[remainingQuestions[i]].questionName}\n\n${questions[remainingQuestions[i]].question}\n\n\n\n`
             }
             // Download Text File
             const blob = new Blob([textContent], { type: "text/plain" });
