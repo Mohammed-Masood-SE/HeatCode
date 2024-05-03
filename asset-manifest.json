@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/HeatCode/static/css/main.87b86594.css",
-    "main.js": "/HeatCode/static/js/main.ad981312.js",
+    "main.js": "/HeatCode/static/js/main.c86a69e2.js",
     "index.html": "/HeatCode/index.html",
     "main.87b86594.css.map": "/HeatCode/static/css/main.87b86594.css.map",
-    "main.ad981312.js.map": "/HeatCode/static/js/main.ad981312.js.map"
+    "main.c86a69e2.js.map": "/HeatCode/static/js/main.c86a69e2.js.map"
   },
   "entrypoints": [
     "static/css/main.87b86594.css",
-    "static/js/main.ad981312.js"
+    "static/js/main.c86a69e2.js"
   ]
 }
