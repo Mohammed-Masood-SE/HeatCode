@@ -1,3 +1,5 @@
+let invalidQnCounter = 10000 // inclusive
+
 let questions = [
     {
         leetNumber:217,
@@ -112,7 +114,59 @@ let questions = [
             top-=1
         return topKArr`,
         tip:"Create an array of arrays of the input arr length , at each frequency of a number add it into array of arrays ex:[1,1,2,3] -> [[2,3],[1],[],[]]"
-    }
+    },
+    {
+        leetNumber:10000,
+        leetLink:"https://neetcode.io/problems/string-encode-and-decode",
+        difficulty:"Medium",
+        questionName:"String Encode and Decode",
+        question:"Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings. Please implement encode and decode",
+        answer:`def encode(strs):
+        sentence = ""
+        for i in strs:
+            sentence += "#"+str(len(i)) + i
+        return sentence
+    
+    def decode(sentence):
+        words = []
+        L = 0
+        while L < len(sentence):
+            while sentence[L] != "#":
+                L+=1
+            L+=1
+            start = L
+            while sentence[L] in "0123456789":
+                L+=1
+            number = int(sentence[start:L])
+            word = ""
+            for i in range(number):
+                word+= sentence[L]
+                L+=1
+            words.append(word)
+        return words`,
+        tip:"You Need Help If You Looked At The Tip"
+    },
+    {
+        leetNumber:238,
+        leetLink:"https://leetcode.com/problems/product-of-array-except-self/description/",
+        difficulty:"Medium",
+        questionName:"Product of Array Except Self",
+        question:"Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. You must write an algorithm that runs in O(n) time and without using the division operation.",
+        answer:`def productExceptSelf(nums):
+        output = [1]
+        #Prefix
+        prefix = 1
+        for i in range(0,len(nums)-1):
+            prefix *= nums[i]
+            output.append(prefix)
+        #Postfix
+        postfix = 1
+        for i in range(len(nums)-1,-1,-1):
+            output[i] *= postfix
+            postfix *= nums[i]
+        return output`,
+        tip:"Compute prefix , Compute postfix Done."
+    },
 ]
 
 export default questions
