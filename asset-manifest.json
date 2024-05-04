@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/HeatCode/static/css/main.87b86594.css",
-    "main.js": "/HeatCode/static/js/main.c86a69e2.js",
+    "main.css": "/HeatCode/static/css/main.17f8e856.css",
+    "main.js": "/HeatCode/static/js/main.e8e085e0.js",
     "index.html": "/HeatCode/index.html",
-    "main.87b86594.css.map": "/HeatCode/static/css/main.87b86594.css.map",
-    "main.c86a69e2.js.map": "/HeatCode/static/js/main.c86a69e2.js.map"
+    "main.17f8e856.css.map": "/HeatCode/static/css/main.17f8e856.css.map",
+    "main.e8e085e0.js.map": "/HeatCode/static/js/main.e8e085e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.87b86594.css",
-    "static/js/main.c86a69e2.js"
+    "static/css/main.17f8e856.css",
+    "static/js/main.e8e085e0.js"
   ]
 }
