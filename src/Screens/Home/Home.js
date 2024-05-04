@@ -62,11 +62,11 @@ function Home() {
                 onClick={()=>{
                     setSelectedQuestion(q);
                     }}>
-                    <h3 className={q.difficulty === "Easy"?styles.easy:q.difficulty === "Hard"?styles.hard:styles.medium}>{q.leetNumber}. {q.questionName}</h3>
+                    <h3 className={q.difficulty === "Easy"?styles.easy:q.difficulty === "Hard"?styles.hard:styles.medium}>{q.leetNumber >= 10000?"":q.leetNumber + "."} {q.questionName}</h3>
                 </div>)}
             </div>
         </div>}
-        {selectedQuestion && <Details question={selectedQuestion} setSelectedQuestion={setSelectedQuestion}/>}
+        {selectedQuestion && <Details question={selectedQuestion} setSelectedQuestion={setSelectedQuestion} setDisplayQuestion={setDisplayQuestion}/>}
       </div>
     );
   }

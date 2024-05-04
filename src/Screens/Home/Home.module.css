@@ -7,7 +7,7 @@
 .questionWrapper{margin-top: 20px;border: 1px solid rgb(98, 98, 98);padding: 15px;border-radius: 20px;cursor: pointer;}
 .questionWrapper h3{font-weight: 300;}
 
-.download{color: rgb(0, 0, 0);outline: none;padding: 15px;position: absolute;bottom: 20px;right: 10px;cursor: pointer;background-color: rgb(219, 219, 219);border: none;border-radius: 10px;}
+.download{color: rgb(0, 0, 0);outline: none;padding: 15px;position: fixed;bottom: 20px;right: 10px;cursor: pointer;background-color: rgb(219, 219, 219);border: none;border-radius: 10px;}
 
 @media (max-width:1440px){
     .searchBarWrapper{padding: 1.389vw;}

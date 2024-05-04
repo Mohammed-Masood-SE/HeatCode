@@ -1,4 +1,4 @@
-let invalidQnCounter = 10000 // inclusive
+//let invalidQnCounter = 10000 // inclusive
 
 let questions = [
     {
@@ -166,6 +166,38 @@ let questions = [
             postfix *= nums[i]
         return output`,
         tip:"Compute prefix , Compute postfix Done."
+    },
+    {
+        leetNumber:36,
+        leetLink:"https://leetcode.com/problems/valid-sudoku/description/",
+        difficulty:"Medium",
+        questionName:"Valid Sudoku",
+        question:`Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
+        1.Each row must contain the digits 1-9 without repetition.
+        2.Each column must contain the digits 1-9 without repetition.
+        3.Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+        Note:
+        A Sudoku board (partially filled) could be valid but is not necessarily solvable.
+        Only the filled cells need to be validated according to the mentioned rules.`,
+        answer:`def isValidSudoku(board):
+        rows = {i : {} for i in range(9)}
+        cols = {i : {} for i in range(9)}
+        squares = {(i,j): {} for i in range(3) for j in range(3)}
+    
+        for r in range(9):
+            for c in range(9):
+                if board[r][c] == ".":
+                    continue
+                if (board[r][c] in rows[r] or
+                    board[r][c] in cols[c] or
+                    board[r][c] in squares[(r//3,c//3)]):
+                    return False
+                rows[r][board[r][c]] = 1
+                cols[c][board[r][c]] = 1
+                squares[(r//3,c//3)][board[r][c]] = 1
+        
+        return True`,
+        tip:"i // 3"
     },
 ]
 
